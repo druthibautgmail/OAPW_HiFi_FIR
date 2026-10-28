@@ -1,0 +1,7 @@
+# Konfiguration
+#oapw_config.txt
+
+# Build-Artefakte
+OAPW_Player
+*.o
+*.bck
