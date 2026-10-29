@@ -220,8 +220,8 @@ After=network.target sound.target mpd.service
 [Service]
 Type=simple
 User=<Dein Username>
-WorkingDirectory=/home/<Dein Username>/OAPW_HiFi_AL
-ExecStart=/home/<Dein Username>/OAPW_HiFi_AL/OAPW_Player
+WorkingDirectory=/home/<Dein Username>/OAPW_HiFi_FIR
+ExecStart=/home/<Dein Username>/OAPW_HiFi_FIR/OAPW_Player
 StandardOutput=journal
 StandardError=journal
 Restart=always
